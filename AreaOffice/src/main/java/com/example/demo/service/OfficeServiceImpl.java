@@ -17,6 +17,7 @@ import com.example.demo.repo.AreaOfficeRepo;
 
 	    @Override
 	    public AreaOffice createAreaOffice(AreaOffice areaOffice) {
+	    	System.out.println("Area office is created....");
 	        return repository.save(areaOffice);
 	    }
 
